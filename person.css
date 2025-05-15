@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  /* text-decoration: none; */
+  color: rgb(3, 120, 159);
+}
+.main-background {
+  width: 100%;
+  height: 666px;
+  /* background-color: #51ffee; */
+  position: absolute;
+  z-index: -11;
+  background-image: linear-gradient(to bottom, #c5fcfc, white, rgb(255, 255, 255));
+}
+
+.person {
+  width: 90%;
+  height: 3000px;
+  /* background-color: #fff; */
+  margin: 0 auto;
+  position: relative;
+  /* background-image: linear-gradient(to bottom, #c5fcfc, white, rgb(255, 255, 255)); */
+}
+
+
+.header-top
+{
+  width:100%;
+  height:100px;
+  /* background-color: #7f7f7f; */
+
+  /* padding: 40px; */
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 400px;
+  height: 100px;
+  /* background-color: #986767; */
+  margin-right: 22px;
+  background: url('/images/rose.png') no-repeat center;
+  background-size: 161% 101%;
+  background-position: -5px 5px;
+  /* opacity: 0; */
+}
+
+.header-top ul
+{
+    width:888px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #9e5151; */
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+
+.header-top ul li
+{
+    /* width: 10%; */
+      height: 40px;
+      /* background-color: #fff; */
+      text-align: center;
+      line-height: 50px;
+      color: rgb(96, 96, 96);
+      font-size: 22px;
+
+      margin-top: 38px;
+}
+
+.header-top ul li:hover
+{
+  border-bottom: 3px solid rgb(172, 172, 172);
+  font-size: 24px;
+  color: black;
+
+}
+
+.header-search {
+  width: 566px;
+  height: 100%;
+  /* background-color: #481515; */
+  margin-right: 2px;
+  position: relative;
+}
+
+.header-search input {
+  width: 70%;
+  height: 66%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 23px;
+  right: 41px;
+
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  /* 当页面小于940px的时候，隐藏 */
+
+}
+
+.header-search input:focus {
+  outline: none;
+  background-color: #fff;
+  border: 2px solid rgb(78, 212, 252);
+}
+
+
+.header-person {
+  width: 200px;
+  height: 200px;
+  /* background-color: #9b5353; */
+  position: relative;
+  margin-top: 50px;
+}
+
+.person-img {
+  width: 88px;
+  height: 88px;
+  background-color: #606d92;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 44px;
+  background: url('/images/url2.jpg') no-repeat center;
+  background-size: 100% 100%;
+
+}
+
+.person-name {
+  width: 66px;
+  height: 28px;
+  /* background-color: #3b3ed7; */
+  position: absolute;
+  top: 24px;
+  /* 页面变化时隐藏 */
+  left: 120px;
+  /* text-align: center; */
+  line-height: 28px;
+  font-size: 24px;
+  color:#753a3a;
+  display: flex;
+  flex-direction: row;
+}
+
+.person-name span
+{
+  color:#828282;
+  font-family:"icomoon";
+  margin-left: 8px;
+  font-size: 24px;
+}
+
+.person-recommend {
+  width: 186px;
+  height: 28px;
+  /* background-color: #c5c5c5; */
+  position: absolute;
+  top: 78px;
+  /* 页面变化时隐藏 */
+  left: 120px;
+  /* text-align: center; */
+  line-height: 28px;
+  font-size: 16px;
+  color: #753a3a;
+}
+.person-main
+{
+  width:100%;
+  /* height:1000px; */
+  background-color: #a98080;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+
+}
+.person-box
+{
+  width:100%;
+  height:88px;
+  background-color: #433332;
+  border-radius: 2px;
+}
+.person-nav
+{
+  width: 100%;
+  height:1000px;
+  background-color: #f7f7f7;
+  border: 2px solid rgb(240, 240, 240);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.person-nav-ul ul
+{
+  width: 208px;
+  height:188px;
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+
+.person-nav-ul li
+{
+  width:208px;
+  height:80%;
+  /* background-color: #ebebeb; */
+  color:#211818;
+  font-size: 22px;
+  text-align: center;
+  /* margin-top: 10px; */
+
+  line-height: 66px;
+  border-bottom: 2px solid rgb(221, 221, 221);
+}
+
+
+.person-nav li:hover{
+  color:#ffffff;
+  background-color: #775353;
+
+  
+}
+
+.person-content
+{
+  width:1388px;
+  height:1000px;
+  background-color: #838383;
+}
+
+.person-footer {
+  width: 100%;
+  height: 100px;
+  background-color: #b2feff;
+  position: absolute;
+  bottom: 0px;
+}

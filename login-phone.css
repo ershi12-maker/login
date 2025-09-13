@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  /* text-decoration: none; */
+  color: rgb(3, 120, 159);
+}
+
+.login {
+  width: 100%;
+  height: 90%;
+  margin-top: 3%;
+  background-image: linear-gradient(to bottom right, rgb(194, 207, 239), rgb(204, 238, 204));
+
+  position: absolute;
+  /* background: url("./OIP-C.jpg") no-repeat center;
+  background-size: 80% 80%;
+  background-position: -344px 0px;
+  background-color: #000000; */
+
+}
+
+.welcome {
+  width: 878px;
+  height: 239px;
+  /* background-color: #fff; */
+  position: absolute;
+  top: 244px;
+  right: 888px;
+  text-align: center;
+}
+
+.welcome h1 {
+  font-size: 67px;
+  color: #595959;
+}
+
+.welcome h2 {
+  font-size: 47px;
+  color: #bd9d9d;
+  margin-top: 20px;
+}
+
+.rose {
+  width: 978px;
+  height: 204px;
+  /* background-color: #fff; */
+  background: url(./rose.png) no-repeat center;
+  background-size: 149% 140%;
+  background-position: -70px 0px;
+  position: absolute;
+  top: 523px;
+  right: 764px;
+}
+
+.register {
+  width: 520px;
+  height: 545px;
+  box-shadow: 30px 40px rgb(0, 0, 0, .4);
+  background-color: rgb(255, 255, 255, .3);
+  position: absolute;
+  right: 151px;
+  top: 187px;
+
+}
+
+.name {
+  width: 100%; 
+  height: 55px;
+  /* background-color: #baa8a8;  */
+  text-align: center;
+  line-height: 58px;
+  position: absolute;
+  top:60px;
+
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+.name a
+{
+  width:20%;
+  text-decoration: none;
+  color:black;
+
+}
+
+.name a:last-child
+{
+  border-bottom: 3px solid rgb(94, 94, 94);
+}
+.name a:hover
+{
+  border-bottom: 3px solid rgb(94, 94, 94);
+  font-size: 25px;
+}
+
+.form {
+  /* background-color: #8e6363; */
+  margin-top: 140px;
+  /* margin-left: 10px; */
+}
+
+.register ul {
+  /* background-color: #513535; */
+  width: 100%;
+}
+
+.register li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: #b08e8e; */
+  width: 100%;
+  height: 74px;
+  box-sizing: border-box;
+  padding: 12px;
+  font-size: 17px;
+}
+
+.register li input {
+  width: 397px;
+  height: 48px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  position: absolute;
+  left: 56px;
+  /* border: 1px solid gray; */
+  border-radius: 2px;
+  border: none;
+}
+
+.register li input:focus {
+  background-color: rgba(235, 235, 235, 0.7);
+  outline: none;
+
+}
+
+.register li input:hover {
+  background-color: rgba(235, 235, 235, 0.7);
+  outline: none;
+  border: 2px solid #b3b3b3;
+
+}
+
+.register li input[class^='id-003'] {
+  width: 243px;
+}
+
+
+.confirm {
+  width: 100px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  right: 66px;
+  color: #595959;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 2px solid rgb(197, 197, 197);
+  border-radius: 2px;
+  box-sizing: border-box;
+
+}
+
+.register button {
+  width: 291px;
+  height: 54px;
+  background-color: #fff;
+  position: absolute;
+  left: 105px;
+  bottom: 32px;
+  border: 2px solid rgb(169, 169, 169);
+  border-radius: 2px;
+  color: rgb(57, 57, 57);
+  font-size: 20px;
+  text-align: center;
+  line-height: 54px;
+}
+
+.agree {
+  /* background-color: #fff; */
+
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  background-color: #ffffff;
+  border: 1px solid black;
+}
+
+.ending {
+  /* background-color: #fff; */
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ending a:first-child {
+  margin-left: 15px;
+}
+
+.ending a:last-child {
+  margin-right: 15px;
+}
+
+.bottom {
+  width: 100%;
+  height: 23px;
+  /* background-color: #cd8e8e; */
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  font-size: 16px;
+  color: #898989;
+}
